@@ -1,3 +1,8 @@
+open "https://www.signin.intra.42.fr"
+
+open -a Spotify
+
+
 # spectacle
 cp ~/www/config/Spectacle/Shortcuts.json ~/Library/Application\ Support/Spectacle/Shortcuts.json
 pkill Spectacle
