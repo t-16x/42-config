@@ -29,6 +29,4 @@ rm -rf ~/Library/Suggestions
 rm -rf ~/Library/Caches
 
 # show used disk space
-df -h | grep jsprouse
-
-
+#df -h | grep $whoami ??? Why would I be interested in this result?
