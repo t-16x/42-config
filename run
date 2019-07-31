@@ -1,7 +1,33 @@
 open "https://www.signin.intra.42.fr"
-open -a Spotify
-open -aj Slack
+#spotify
+SPOTIFY=/applications/Spotify.app
+if test -e "$SPOTIFY"; then
+    open -a Spotify
+else
+	echo "Spotify not installed\nDownloading..."
+	open "https://www.spotify.com/us/download/" ;
+	sleep 10
+	if test -f "/nfs/2019/j/jsprouse/Downloads/Install Spotify.app"; then
+		open "/nfs/2019/j/jsprouse/Downloads/Install Spotify*.app" ;
+		rm -rf "/nfs/2019/j/jsprouse/Downloads/Install Spotify*.app"
+	fi
+fi
+#Slack
+SLACK=/applications/Slack.app
+if test -e "$SLACK"; then
+    open -a Slack
+else
+	echo "Slack not installed\nDownloading..."
+	open "https://www.spotify.com/us/download/" ;
+	sleep 15
+	if test -f "/nfs/2019/j/jsprouse/Downloads/Slack-4.0.0-macOS.dmg"; then
+		open "/nfs/2019/j/jsprouse/Downloads/Slack-4.0.0-macOS.dmg" ;
+		rm -rf "/nfs/2019/j/jsprouse/Downloads/Slack-4.0.0-macOS.dmg"
+	fi
+fi
+
 open https://42schoolsiliconvalley.slack.com/
+
 open -a iTerm
 # spectacle
 #cp ~/www/config/Spectacle/Shortcuts.json ~/Library/Application\ Support/Spectacle/Shortcuts.json
