@@ -1,6 +1,7 @@
 open "https://www.signin.intra.42.fr"
 open -a Spotify
-open -a Slack
+open -aj Slack
+open https://42schoolsiliconvalley.slack.com/
 open -a iTerm
 # spectacle
 #cp ~/www/config/Spectacle/Shortcuts.json ~/Library/Application\ Support/Spectacle/Shortcuts.json
@@ -10,6 +11,7 @@ open -a iTerm
 # vscode
 cp ~/www/config/vscode/settings.json $HOME/Library/Application\ Support/Code/User/settings.json
 cp ~/www/config/vscode/keybindings.json $HOME/Library/Application\ Support/Code/User/keybindings.json
+open -a Visual\ Studio\ Code.app
 
 # show date on status bar
 defaults write com.apple.menuextra.clock "DateFormat" "d MMM w HH:mm" \
