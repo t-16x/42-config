@@ -3,9 +3,9 @@ open -a Spotify
 open -a Slack
 open -a iTerm
 # spectacle
-cp ~/www/config/Spectacle/Shortcuts.json ~/Library/Application\ Support/Spectacle/Shortcuts.json
-pkill Spectacle
-open -a Spectacle
+#cp ~/www/config/Spectacle/Shortcuts.json ~/Library/Application\ Support/Spectacle/Shortcuts.json
+#pkill Spectacle
+#open -a Spectacle
 
 # vscode
 cp ~/www/config/vscode/settings.json $HOME/Library/Application\ Support/Code/User/settings.json
