@@ -2,15 +2,12 @@
 
 Just run the run file, i.e, `sh run`
 
-# Contributing
-
-Here are a few propositions on how to contribute:
-
+# TODO:
 - automatically install VS Code from `Managed Software Center` if not installed
 - automatically install Spectacle from `Managed Software Center` if not installed
-- set mouse right button to `secondary button` (many times it is set to primary)
-- set mouse wheel to `button 3` (many times it is turned off)
-- set mouse to vertical scroll only
-- set keyboard to us international
+- set mouse right button to `primary button`
+- set mouse wheel to `seconadry button` (many times it is turned off)
+- set mouse to horizontal and vertical scroll only
 - require password immediately after sleep or screen saver begins
 - automatically hide and show the dock
+-change default browser to firefox
