@@ -21,7 +21,7 @@ defaults write com.apple.menuextra.clock "DateFormat" "d MMM w HH:mm" \
  #   [{"HIDKeyboardModifierMappingSrc":0x7000000e4,
 #	      "HIDKeyboardModifierMappingDst":0x7000000e6}]
 #}'
-#Am I sure I want this?^^^^^^^
+#remove this when fixing the spectacle shortcut keys
 
 # clean useless files
 rm -rf ~/Library/*chache_bak*
